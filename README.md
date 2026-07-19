@@ -1,7 +1,7 @@
 # BetaBytez AI/ML Internship — Task 2
 ### Model Training on Two Datasets with Comparison
 
-## 📊 Datasets
+##  Datasets
 
 | Dataset | Domain | Samples | Features | Classes |
 |---|---|---|---|---|
@@ -12,7 +12,7 @@ Both datasets are bundled directly with scikit-learn (`load_wine`, `load_breast_
 reliably with no external download and no missing/corrupted values — letting the analysis focus fully on
 modeling and comparison rather than data cleaning.
 
-## 🧠 Approach (per dataset)
+##  Approach (per dataset)
 
 1. **EDA** — class balance, feature distributions by class, and a correlation heatmap (3 plots per dataset,
    6 total).
@@ -25,20 +25,20 @@ modeling and comparison rather than data cleaning.
    dataset was harder, which model generalized better, and what this shows about data quality vs.
    performance.
 
-## 📈 Results
+##  Results
 
 **Wine (multiclass, weighted average metrics):**
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
 | Logistic Regression | 97.2% | 97.4% | 97.2% | 97.2% |
-| **Random Forest** ✅ | **100%** | **100%** | **100%** | **100%** |
+| **Random Forest** | **100%** | **100%** | **100%** | **100%** |
 
 **Breast Cancer (binary):**
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| **Logistic Regression** ✅ | **98.2%** | **98.6%** | **98.6%** | **98.6%** |
+| **Logistic Regression**  | **98.2%** | **98.6%** | **98.6%** | **98.6%** |
 | Random Forest | 95.6% | 95.9% | 97.2% | 96.6% |
 
 **Key finding:** No single model won on both datasets — Random Forest excelled on Wine's non-linear
@@ -47,7 +47,7 @@ separable feature space. GridSearchCV tuning of the weaker model in each case pr
 change, showing both models were already close to their performance ceiling on these clean, well-prepared
 datasets — the full reasoning is written out in the notebook's Comparative Analysis Report section.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 betabytez-aiml-task2-yourname/
@@ -56,7 +56,7 @@ betabytez-aiml-task2-yourname/
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python -m venv venv

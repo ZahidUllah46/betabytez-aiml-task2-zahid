@@ -12,6 +12,7 @@ Both datasets are bundled directly with scikit-learn (`load_wine`, `load_breast_
 reliably with no external download and no missing/corrupted values — letting the analysis focus fully on
 modeling and comparison rather than data cleaning.
 
+
 ##  Approach (per dataset)
 
 1. **EDA** — class balance, feature distributions by class, and a correlation heatmap (3 plots per dataset,
@@ -24,6 +25,7 @@ modeling and comparison rather than data cleaning.
 6. **Comparative Analysis Report** — written directly in the notebook (markdown cells), answering which
    dataset was harder, which model generalized better, and what this shows about data quality vs.
    performance.
+
 
 ##  Results
 
@@ -46,6 +48,7 @@ chemical feature interactions, while Logistic Regression excelled on Breast Canc
 separable feature space. GridSearchCV tuning of the weaker model in each case produced only marginal
 change, showing both models were already close to their performance ceiling on these clean, well-prepared
 datasets — the full reasoning is written out in the notebook's Comparative Analysis Report section.
+
 
 ##  Repository Structure
 

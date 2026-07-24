@@ -3,6 +3,7 @@
 
 ##  Datasets
 
+
 | Dataset | Domain | Samples | Features | Classes |
 |---|---|---|---|---|
 | **Wine Recognition** | Chemical / Agricultural | 178 | 13 | 3 (cultivars) |
@@ -11,7 +12,6 @@
 Both datasets are bundled directly with scikit-learn (`load_wine`, `load_breast_cancer`), so they load
 reliably with no external download and no missing/corrupted values — letting the analysis focus fully on
 modeling and comparison rather than data cleaning.
-
 
 ##  Approach (per dataset)
 
@@ -52,12 +52,11 @@ datasets — the full reasoning is written out in the notebook's Comparative Ana
 
 ##  Repository Structure
 
-```
 betabytez-aiml-task2-yourname/
 ├── task2_notebook.ipynb     # Full EDA, preprocessing, training, evaluation, tuning, and comparison report
 ├── requirements.txt
 └── README.md
-```
+
 
 ## How to Run
 

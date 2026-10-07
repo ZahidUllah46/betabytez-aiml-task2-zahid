@@ -3,7 +3,6 @@
 
 ##  Datasets
 
-
 | Dataset | Domain | Samples | Features | Classes |
 |---|---|---|---|---|
 | **Wine Recognition** | Chemical / Agricultural | 178 | 13 | 3 (cultivars) |
@@ -60,7 +59,7 @@ betabytez-aiml-task2-yourname/
 
 ## How to Run
 
-```bash
+bash
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
